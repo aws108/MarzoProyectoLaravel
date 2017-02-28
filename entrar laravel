@@ -1,0 +1,15 @@
+cd Desktop/M7/UF3/projectLarabel/laravelapp1
+
+php artisan serve
+
+http://localhost:8000/
+
+https://cacauet.org/wiki/index.php/Laravel#Fent_un_projectet_amb_Laravel (punto 10, Afegir el codi necessari i plantilles)
+
+https://github.com/emieza/laravel-karaoke
+
+PHP MYADMIN:
+localhost/phpmyadmin/index.php?token=119566146e9ad5b5a5af8b49603f774b
+
+Tutorial ajgallego:
+https://ajgallego.gitbooks.io/laravel-5/content/capitulo_1_ejercicios.html
