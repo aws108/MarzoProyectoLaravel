@@ -38,5 +38,8 @@ Route::post('/comanda/{id}/crea', "ComandaController@store");
 Route::get('/comanda/{id}/edita', "EditaController@create");
 Route::post('/comanda{id}/edita', "EditaController@store");
 
+
+Route::resource('catalog', 'ItemController');
+
 ?>
 

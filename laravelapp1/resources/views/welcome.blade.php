@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>EcoFood</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -70,21 +70,29 @@
                 <div class="top-right links">
                     <a href="{{ url('/login') }}">Login</a>
                     <a href="{{ url('/register') }}">Register</a>
+                    <a href="{{ url('/categoria/crea') }}">Crea una categoría</a>
+                    <a href="{{ url('/categoria/{id}') }}">Lista Categorías</a>
+                    <a href="{{ url('/producte/crea') }}">Crea un producto</a>
+                    <a href="{{ url('/producte/{id}') }}">Lista Productos</a>
+                    <a href="{{ url('/comanda/crea') }}">Hacer un pedido</a>
+                    <a href="{{ url('/comanda/{id}/crea') }}">Crea un nuevo pedido</a>
+                    <a href="{{ url('/comanda/{id}/edita') }}">Edita el pedido</a>
+
                 </div>
             @endif
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    EcoFood
                 </div>
-
+                <!--
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+                </div> -->
             </div>
         </div>
     </body>
